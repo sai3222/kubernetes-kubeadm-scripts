@@ -18,3 +18,11 @@ Here is the supporting documentation and video demo.
 
 If you are learning Kubernetes, check out the [kubernetes Learning Roadmap](https://github.com/techiescamp/kubernetes-learning-path)
 
+##If you are stoped the server run those commands in master and node**:
+kubeadm reset
+systemctl restart kubelet
+exicute ./master.sh script
+type: yes
+
+Copy the token from master and copy in the node server
+

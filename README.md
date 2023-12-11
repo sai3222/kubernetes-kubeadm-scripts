@@ -26,3 +26,6 @@ type: yes
 
 Copy the token from master and copy in the node server
 
+Ingress installation:
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+
